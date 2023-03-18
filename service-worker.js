@@ -15,7 +15,11 @@ self.addEventListener('install', event => {
         './resources/envelope(angle).png',
         './resources/envelope(front).png',
         './resources/heart with wings (front).png',
-        './manifest.json'
+        './manifest.json',
+        
+        './https://fonts.googleapis.com',
+        './https://fonts.gstatic.com',
+        './https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap',
       ]))
   );
 });
