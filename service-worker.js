@@ -14,6 +14,7 @@ self.addEventListener('install', event => {
 
         './resources/envelope(angle).png',
         './resources/envelope(front).png',
+        './resources/heart with wings (front).png',
       ]))
   );
 });
