@@ -61,7 +61,12 @@
         <h2>Projetos</h2>
         <p>O <b><i>Desfile Maker</i></b>, destaque entre os muitos projetos realizados pelo Senac durante o Rec n' Play, contou com a colaboração dos estudantes de Moda, ADS e Idiomas para tornar possível o desfile de moda <b><i>“Pierre Cardin e o Movimento Manguebeat”</i></b> na passarela da Casa Cor PE, no edifício Chanteclair.</p>
         <p>Foi com um imenso prazer que participei deste projeto, sendo responsável não apenas pela gestão das equipes dos alunos de ADS, mas também pelo design UX do site e da construção e testes dos circuitos Arduino que tornaram possível a interação entre o público e os vestidos.</p>
-        <a class="h3" href="https://www.youtube.com/watch?v=MSupUGT3E98">~ Assista ao Making off ~</a>
+
+        <div class="centralText">
+          <a class="h3" href="https://www.youtube.com/watch?v=MSupUGT3E98">~ Assista ao Making off ~</a>
+          <img class="centralImg" src="resources/heart with wings (front).png" width="60" alt="heart with wings">
+        </div>
+
     </div>
 
     </div>
@@ -74,61 +79,25 @@
         <h2>Contatos</h2>
 
         <div class="footPaddingText">
-          <h3>Telefone</h3>
+          <h3 class="h3foot">Telefone</h3>
           <a class="footLink" href="tel:+55.081.984763785">+55 9 8476-3785</a>
         </div>
         
         <div class="footPaddingText">
-          <h3>Email</h3>
+          <h3 class="h3foot">Email</h3>
           <a class="footLink" href="mailto:erikavbscontato@gmail.com">erikavbscontato@gmail.com</a>
         </div>
         
         <div class="footPaddingText">
-          <h3>GitHub</h3>
+          <h3 class="h3foot">GitHub</h3>
           <a class="footLink" href="https://github.com/ErikavbSantos">ErikavbSantos</a>
         </div>
+
+        <p class="rights">© 2023 All Rights Reserved</p>
+
     </div>
   </div>
 
-  <script>
-    let newWorker;
-    /*
-    function showUpdateBar() {
-        let snackbar = document.getElementById('snackbar');
-        snackbar.className = 'show';
-    }
-    */
-    // The click event on the pop up notification
-    document.getElementById('reload').addEventListener('click', function () {
-        newWorker.postMessage({ action: 'skipWaiting' });
-    });
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('service-worker.js').then(reg => {
-            reg.addEventListener('updatefound', () => {
-                // A wild service worker has appeared in reg.installing!
-                newWorker = reg.installing;
-                newWorker.addEventListener('statechange', () => {
-                    // Has network.state changed?
-                    switch (newWorker.state) {
-                        case 'installed':
-                        if (navigator.serviceWorker.controller) {
-                            // new update available
-                            //------showUpdateBar();
-                        }
-                        // No update available
-                        break;
-                    }
-                });
-            });
-        });
-        let refreshing;
-        navigator.serviceWorker.addEventListener('controllerchange', function () {
-            if (refreshing) return;
-            window.location.reload();
-            refreshing = true;
-        });
-    }
-</script>
 
 </body>
 </html>
