@@ -112,6 +112,20 @@ h2 {
   font-family: var(--font-tittles);
 }
 
+.centralText {
+  display: block;
+  padding-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.centralImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+}
 
 /*------------------------------------------------------------
 # LINKS
@@ -152,7 +166,7 @@ a:hover {
 }
 
 /* h3 do footer */
-h3 {
+.h3foot {
   color: var(--color-primary);
   text-decoration: none;
   font-family: var(--font-tittles);
@@ -169,4 +183,11 @@ h3 {
 .footPaddingBottom {
   padding-top: 10%;
   padding-bottom: 5%;
+}
+
+.rights {
+  margin-bottom: 0%;
+  font-family: var(--font-primary);
+  font-size: small;
+  text-align: right;
 }
