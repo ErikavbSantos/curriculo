@@ -2,6 +2,10 @@
 # Good thing to do: set the fonts & colors that will be used throughout the page with variabels
 ------------------------------------------------------------*/
 
+html[data-theme='dark'] {
+    background: #000000;
+}
+
 /* Fonts */
 :root {
   --font-tittles: 'Berkshire Swash', cursive;
