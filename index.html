@@ -6,100 +6,41 @@
   <meta name="description" content="Site feito para uma atividade de mobile envolvendo PWA">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Currículo teste</title>
-  <link rel="stylesheet" type="text/css" href="main.css" media="screen">
-  <link rel="manifest" href="manifest.json"/>
-
-  <!-- Icons -->
-  <link rel="icon" href="resources/envelope(front).png">
-  <link rel="apple-touch-icon" href="resources/envelope(front).png">
-
-  <!-- Fonts -->
-  <!-- ubuntu -->
+  <title>Currículo</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen">
+  <link rel="icon" href="/assets/imgs/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-
-<!-- Berkshire Swash -->
-<script>navigator.serviceWorker.register("service-worker.js")</script> 
-<link rel="manifest" href="manifest.json" /><link rel="manifest" href="manifest.json" /><link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div id="container">
-
-    <div id="header">
-      <img class="icon" src="resources/envelope(angle).png" alt="icone do currículo" width="24">
-      <h1 class="leftHeader">Currículo</h1>
-      <hr class="solidTop"/>
-    </div>
-
-    <div id="contents">
-    
-      <h1 class="myName">Erika Santos</h1>
-      <h4 class="subtitle">Estudante Universitária</h4>
-
-      <div class="topic">
-        <h2>Sobre mim</h2>
-        <p>Olá, eu me chamo Erika, tenho 21 anos e sou uma pessoa comunicativa, uma leitora ávida e apaixonada por jogos e design.</p>
-        <p>Atualmente estou cursando o 3° período de uma graduação em Análise e Desenvolvimento de Sistemas na Faculdade Senac PE e planejo construir para mim uma carreira nas areas de Web Design ou Dados.</p>
+  <div class="fullPage">
+    <header>
+      <div class="tab tabBgYellow">
+        <a href="/index.html">
+          <img src="/assets/imgs/heart_full.png" alt="heart full icon"> <p>Hello</p>
+        </a>
       </div>
-
-      <div class="topic">
-        <h2>Competências e habilidades</h2>
-        <p><b>HTML 5 - Intermediário
-          <br>CSS 3 - Intermediário
-          <br>SQL - Intermediário
-          <br>C - Intermediário
-          <br>Inglês - Intermediário
-          <br>Figma - Intermediário
-          <br>Java - Básico
-          <br>Github - Básico<br></b>
-        </p>
+      <div class="tab tabBgCoral">
+        <a href="/aboutMe.html">
+          <img src="/assets/imgs/heart_empty.png" alt="heart full icon"> <p>Sobre Mim</p>
+        </a>
       </div>
-
-      <div class="topic">
-        <h2>Projetos</h2>
-        <p>O <b><i>Desfile Maker</i></b>, destaque entre os muitos projetos realizados pelo Senac durante o Rec n' Play, contou com a colaboração dos estudantes de Moda, ADS e Idiomas para tornar possível o desfile de moda <b><i>“Pierre Cardin e o Movimento Manguebeat”</i></b> na passarela da Casa Cor PE, no edifício Chanteclair.</p>
-        <p>Foi com um imenso prazer que participei deste projeto, sendo responsável não apenas pela gestão das equipes dos alunos de ADS, mas também pelo design UX do site e da construção e testes dos circuitos Arduino que tornaram possível a interação entre o público e os vestidos.</p>
-
-        <div class="centralText">
-          <a class="h3" href="https://www.youtube.com/watch?v=MSupUGT3E98">~ Assista ao Making off ~</a>
-          <img class="centralImg" src="resources/heart with wings (front).png" width="60" alt="heart with wings">
-        </div>
-
-    </div>
-
-    </div>
-
-    <div id="footer">
-
-      <div class="footPaddingBottom">
-        
-        <hr class="solidBottom"/>
-        <h2>Contatos</h2>
-
-        <div class="footPaddingText">
-          <h3 class="h3foot">Telefone</h3>
-          <a class="footLink" href="tel:+55.081.984763785">+55 9 8476-3785</a>
-        </div>
-        
-        <div class="footPaddingText">
-          <h3 class="h3foot">Email</h3>
-          <a class="footLink" href="mailto:erikavbscontato@gmail.com">erikavbscontato@gmail.com</a>
-        </div>
-        
-        <div class="footPaddingText">
-          <h3 class="h3foot">GitHub</h3>
-          <a class="footLink" href="https://github.com/ErikavbSantos">ErikavbSantos</a>
-        </div>
-
-        <p class="rights">© 2023 All Rights Reserved</p>
-
+      <div class="tab tabBgPink">
+        <a href="/abilities.html">
+          <img src="/assets/imgs/heart_empty.png" alt="heart full icon"> <p>Habilidades</p>
+        </a>
+      </div>
+      <div class="tab tabBgPurple">
+        <a href="/contact.html">
+          <img src="/assets/imgs/heart_empty.png" alt="heart full icon"> <p>Contato</p>
+        </a>
+      </div>
+    </header>
+    <div class="mainBody mainBodyBgYellow">
+      <p>text test 0</p>
     </div>
   </div>
-
-
 </body>
 </html>

@@ -1,0 +1,33 @@
+header {
+    display: flex;
+}
+.tab {
+    padding: 16px;
+    width: fit-content;
+    border-radius: 20px 20px 0 0;
+}
+.tab a {
+    display: flex;
+}
+.tab a img {
+    height: 24px;
+    width: auto;
+}
+.tab a p {
+    font-size: 24px;
+    color: white;
+    margin: 2px 0px 0px 0px;
+    margin-left: 14px;
+}
+.tabBgPurple {
+    background-color: var(--purple);
+}
+.tabBgPink {
+    background-color: var(--pink);
+}
+.tabBgCoral {
+    background-color: var(--coral);
+}
+.tabBgYellow {
+    background-color: var(--yellow);
+}

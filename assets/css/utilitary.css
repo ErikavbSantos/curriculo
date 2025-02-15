@@ -1,0 +1,14 @@
+:root {
+    --bg: #001927;
+    --bodyBg: #eeeeee;
+    --purple: #A42BDD;
+    --pink: #E40AA6;
+    --coral: #E05D6A;
+    --yellow: #E9B37A;
+}
+:root {
+    scroll-behavior: smooth;
+  }
+::selection {
+    background-color: var(--coral);
+}
