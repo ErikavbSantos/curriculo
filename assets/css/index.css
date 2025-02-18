@@ -1,4 +1,117 @@
-p {
+.mainBody {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 50px;
+    color: #E9B37A;
+    text-shadow: 5px 5px #E904BB;
+    text-align: center;
+}
+.btn {
+    display: flex;
+    justify-self: center;
+    color: black;
+}
+.btnTag {
+    border: 2px solid black;
+    background-color: #fd5fd0;
+    box-shadow: inset 6px 6px #fa9ddf, inset -6px -6px #971071;
+    justify-items: center;
+    width: 50px;
+}
+.btnBody {
+    border: 2px solid black;
+    background-color: #E9DE7A;
+    box-shadow: inset 6px 6px #fffaca, inset -6px -6px #c6b623;
+    justify-items: center;
+    width: 50vw;
+}
+.btnBody .btnTag p{
     font-size: 30px;
     color: black;
+}
+.btn:hover .btnTag {
+    cursor: pointer;
+}
+.btn:hover .btnBody {
+    color: white;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+}
+.hearts {
+    justify-self: center;
+}
+.hearts img {
+    height: 50px;
+    width: auto;
+}
+.saturn {
+    position: absolute;
+    width: fit-content;
+    height: 80px;
+    top: 14vh;
+    left: 12vw;
+}
+.ghostie {
+    position: absolute;
+    width: fit-content;
+    height: 50px;
+    bottom: 30vh;
+    right: 16vw;
+}
+/* BLACK STARS*/
+.star1 {
+    position: absolute;
+    width: fit-content;
+    height: 24px;
+    top: 14vh;
+    left: 24vw;
+}
+.star2 {
+    position: absolute;
+    width: fit-content;
+    height: 36px;
+    top: 32vh;
+    left: 12vw;
+}
+.star3 {
+    position: absolute;
+    width: fit-content;
+    height: 44px;
+    top: 20vh;
+    right: 18vw;
+}
+.star4 {
+    position: absolute;
+    width: fit-content;
+    height: 24px;
+    bottom: 8vh;
+    left: 30vw;
+}
+/* YELLOW STARS*/
+.star5 {
+    position: absolute;
+    width: fit-content;
+    height: 20px;
+    top: 16vh;
+    right: 22vw;
+}
+.star6 {
+    position: absolute;
+    width: fit-content;
+    height: 24px;
+    bottom: 14vh;
+    left: 14vw;
+}
+/* BLUE STARS*/
+.star7 {
+    position: absolute;
+    width: fit-content;
+    height: 20px;
+    top: 38vh;
+    left: 8vw;
 }
